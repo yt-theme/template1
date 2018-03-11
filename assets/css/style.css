@@ -905,13 +905,13 @@ button.btn-md {
     color: #444;
     letter-spacing: 1px;
     margin: 0;
-    font-size: 0.8125rem;
+    font-size: 1.5rem;
     border-radius: 0px;
     margin-top: 0px;
     background-color: transparent;
     transition: .5s;
     border: 0px solid #e74c3c;
-    font-family: 'montserratregular';
+    /*font-family: 'montserratregular';*/
 }
 button.btn-md:hover {
     background-color: transparent;
