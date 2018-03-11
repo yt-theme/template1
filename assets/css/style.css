@@ -663,7 +663,7 @@ input::-ms-input-placeholder {
 }
 /*heading title all area*/
 .head_title{
-    margin-bottom:90px;
+    margin-bottom:30px;
 }
 .head_title h3{
     color:#413d4b;
@@ -780,12 +780,18 @@ input::-ms-input-placeholder {
 
 .main_feature{}
 .main_feature .single_feature{}
+.main_feature .single_feature .single_feature_icon{
+  background: #71839A;
+  border-radius: 3px;
+}
 .main_feature .single_feature:hover .single_feature_icon{
     border-color:#e74c3c;
+    background: #EC4848;
     transform: rotate(45deg);
 }
 .main_feature .single_feature:hover .single_feature_icon i{
     transform: rotate(-45deg);
+    background: #666;
 }
 .main_feature .single_feature:hover h4{
     color:#e74c3c;
@@ -834,7 +840,8 @@ input::-ms-input-placeholder {
 }
 .main_service .single_service_img {
     position: relative;
-    height: 676px;
+    /*height: 676px;*/
+    z-index: 0;
 }
 .main_service .single_service_img img {
     width: 100%;
@@ -844,6 +851,16 @@ input::-ms-input-placeholder {
 .main_service .single_service.single_service_text {
     margin-right:0px;
     background: #202020;
+}
+.main_service .single_service.single_service_text .single_service_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2.1px solid #EC4848;
+  background-color: #fff;
+  border-radius: 100%;
 }
 .main_service .single_service.single_service_text .single_service_icon i{
     background: #f4f5f9;
@@ -1410,7 +1427,7 @@ li .single_team_text p{
                         Trail Section
 ======================================================================*/
 .main_trial_area{
-    background: url(../images/trailbg.jpg) no-repeat top center;
+    background: url(../images/033.jpg) no-repeat top center;
     overflow: hidden;
     background-size: cover;
     color:#fff;
